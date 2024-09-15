@@ -14,10 +14,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libdsi_netctrl.so"],
 		},
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/libdsi_netctrl.so"],
 		},
 	},
@@ -34,10 +34,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libgpustats.so"],
 		},
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/libgpustats.so"],
 		},
 	},
@@ -54,10 +54,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmi_cci.so"],
 		},
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/libqmi_cci.so"],
 		},
 	},
@@ -74,10 +74,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmi_common_so.so"],
 		},
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/libqmi_common_so.so"],
 		},
 	},
@@ -94,10 +94,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmiservices.so"],
 		},
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/libqmiservices.so"],
 		},
 	},
@@ -114,10 +114,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libsdm-disp-vndapis.so"],
 		},
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
 		},
 	},
@@ -134,10 +134,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
 		},
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
 		},
 	},
@@ -154,7 +154,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		: {
 			srcs: ["proprietary/vendor/lib64/libloc_api_v02.so"],
 		},
 	},
@@ -171,10 +171,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.fm@1.0.so"],
 		},
-		android_arm64: {
+		: {
 			srcs: ["proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so"],
 		},
 	},
@@ -396,7 +396,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@3.0-service",
+	name: "vendor.qti.gnss@3.0-service.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml",
 	filename_from_src: true,
